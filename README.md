@@ -34,6 +34,10 @@ eas build -p ios                         # needs an Apple Developer account
 
 Before publishing, change `ios.bundleIdentifier` and `android.package` in `app.json` from `com.example.vitals` to your own ID, and add an `icon` and `splash` there.
 
+## Automatic Android build (GitHub Actions)
+
+Every push to `main` runs `.github/workflows/build-android.yml`, which builds an APK. Open the repo's **Actions** tab, click the latest run, and download the `vitals-apk` file under **Artifacts**. You can also start it by hand with **Run workflow**.
+
 ## Project layout
 
 ```
