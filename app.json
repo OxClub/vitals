@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Vitals",
+    "slug": "vitals",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.example.vitals" },
+    "android": { "package": "com.example.vitals" }
+  }
+}
